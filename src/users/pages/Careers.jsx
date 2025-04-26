@@ -105,7 +105,7 @@ function Careers() {
                 </div>
 
                 <div className="mb-3 px-3 w-full">
-                  <textarea placeholder='Cover Letter' className='w-full rounded p-2 placeholder-gray-400 border border-gray-400'></textarea>
+                  <textarea rows={5} placeholder='Cover Letter' className='w-full rounded p-2 placeholder-gray-400 border border-gray-400'></textarea>
                 </div>
 
                 <div className="mb-3 px-3 w-full">
@@ -117,8 +117,8 @@ function Careers() {
 
               {/* footer of the modal */}
               <div class="bg-gray-200 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
-                <button type="button" class="inline-flex w-full justify-center rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-xs  hover:border hover:border-green-600  hover:text-green-600  hover:bg-white sm:ml-3 sm:w-auto">Submit</button>
-                <button type="button" class="mt-3 inline-flex w-full justify-center rounded-md bg-orange-600 px-3 py-2 text-sm font-semibold text-white shadow-xs ring-1 ring-gray-300 ring-inset hover:border hover:border-orange-600  hover:text-orange-600  hover:bg-white sm:mt-0 sm:w-auto">Reset</button>
+                <button type="button" className="inline-flex w-full justify-center rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-xs  hover:border hover:border-green-600  hover:text-green-600  hover:bg-white sm:ml-3 sm:w-auto">Submit</button>
+                <button type="button" className="mt-3 inline-flex w-full justify-center rounded-md bg-orange-600 px-3 py-2 text-sm font-semibold text-white shadow-xs ring-1 ring-gray-300 ring-inset hover:border hover:border-orange-600  hover:text-orange-600  hover:bg-white sm:mt-0 sm:w-auto">Reset</button>
               </div>
             </div>
           </div>
